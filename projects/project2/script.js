@@ -4,20 +4,20 @@ var temperature = document.getElementById('temperature');
 var windSpeed = document.getElementById('wind-speed');
 var weatherSummary = document.getElementById('weather-summary');
 var getWeatherButton = document.getElementById('get-weather');
-var locationQuestion = prompt('Enter city name or click cancel button for use your location', '');
 
-if (locationQuestion === null) {
-    getLocationCoords();
-} else {
+
+function choiseCityOrLocation() {
+    var locationQuestion = prompt('Enter city name or click cancel button for use your location', '');
+    if (locationQuestion === null) {
+        getLocationCoords();
+    } else {
+        getLocationCityId(locationQuestion);
+    }
 
 }
 
-function getCityId() {
-
-}
-
-function getLocationCityId(cityId){
-    fetch('api.openweathermap.org/data/2.5/weather?id=' + cityId + '&appid=08d1316ba8742c08076e7425c28c2614')
+function getLocationCityId(cityName){
+    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=08d1316ba8742c08076e7425c28c2614')
 }
 
 
@@ -52,4 +52,4 @@ function transformKelvinToCelcius(Kelvin) {
     return Math.round(Kelvin - 273);
 }
 
-getWeatherButton.addEventListener('click', getLocationCoords);
+getWeatherButton.addEventListener('click', choiseCityOrLocation);
