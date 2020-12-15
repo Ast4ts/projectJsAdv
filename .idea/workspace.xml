@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="FinalV2.0">
-      <change afterPath="$PROJECT_DIR$/projects/project2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/project2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/project2/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="new proj" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <workItem from="1607517392954" duration="613000" />
       <workItem from="1607696761874" duration="2803000" />
       <workItem from="1607941458737" duration="4000" />
-      <workItem from="1607955761556" duration="5514000" />
+      <workItem from="1607955761556" duration="5722000" />
     </task>
     <task id="LOCAL-00001" summary="new folder">
       <created>1607697600743</created>
@@ -131,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607960450937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new proj">
+      <created>1607961562374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607961562374</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +157,8 @@
     <MESSAGE value="new employ" />
     <MESSAGE value="Final" />
     <MESSAGE value="FinalV2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="FinalV2.0" />
+    <MESSAGE value="new proj" />
+    <option name="LAST_COMMIT_MESSAGE" value="new proj" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="462" width="590" height="196" key="Github.CreateGistDialog" timestamp="1607697528412">
