@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="new proj" />
+    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="Deleted files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/project2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/project2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project2/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +88,8 @@
       <workItem from="1607696761874" duration="2803000" />
       <workItem from="1607941458737" duration="4000" />
       <workItem from="1607955761556" duration="5722000" />
+      <workItem from="1608031848683" duration="710000" />
+      <workItem from="1608033728943" duration="3262000" />
     </task>
     <task id="LOCAL-00001" summary="new folder">
       <created>1607697600743</created>
@@ -134,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607961562374</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Deleted files">
+      <created>1608031937118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608031937118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +171,8 @@
     <MESSAGE value="Final" />
     <MESSAGE value="FinalV2.0" />
     <MESSAGE value="new proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="new proj" />
+    <MESSAGE value="Deleted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="462" width="590" height="196" key="Github.CreateGistDialog" timestamp="1607697528412">
@@ -169,17 +183,17 @@
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
     <state x="741" y="225" width="484" height="669" key="RollbackChangesDialog/56.33.1864.1047@56.33.1864.1047" timestamp="1607957781416" />
-    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1607960454827">
+    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1608031945610">
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
-    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2/56.33.1864.1047@56.33.1864.1047" timestamp="1607960454827" />
+    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2/56.33.1864.1047@56.33.1864.1047" timestamp="1608031945610" />
     <state x="568" y="250" key="run.anything.popup" timestamp="1607698092583">
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
     <state x="568" y="250" key="run.anything.popup/56.33.1864.1047@56.33.1864.1047" timestamp="1607698092583" />
-    <state x="523" y="45" width="928" height="1034" key="search.everywhere.popup" timestamp="1607697848703">
+    <state x="523" y="45" width="928" height="1034" key="search.everywhere.popup" timestamp="1608047392572">
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
-    <state x="523" y="45" width="928" height="1034" key="search.everywhere.popup/56.33.1864.1047@56.33.1864.1047" timestamp="1607697848703" />
+    <state x="523" y="45" width="928" height="1034" key="search.everywhere.popup/56.33.1864.1047@56.33.1864.1047" timestamp="1608047392572" />
   </component>
 </project>
