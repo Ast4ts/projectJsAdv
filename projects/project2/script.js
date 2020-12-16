@@ -9,15 +9,30 @@ var getWeatherButton = document.getElementById('get-weather');
 function choiseCityOrLocation() {
     var locationQuestion = prompt('Enter city name or click cancel button for use your location', '');
     if (locationQuestion === null) {
+        alert('Weather will be show from your location');
         getLocationCoords();
     } else {
-        getLocationCityId(locationQuestion);
+        getWeatherDataCityName(locationQuestion);
     }
 
 }
 
-function getLocationCityId(cityName){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=08d1316ba8742c08076e7425c28c2614')
+function getWeatherDataCityName(cityName) {
+    try {
+        fetch('http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=08d1316ba8742c08076e7425c28c2614')
+            .then(function responseShow(response) {
+                return response.json();
+            })
+            .then(function (data) {
+                displayData(data);
+            })
+
+// catch не работает, не ловит ошибку из response
+    } catch (e) {
+        if (e instanceof TypeError) {
+            alert(e);
+        }
+    }
 }
 
 
