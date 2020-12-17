@@ -1,19 +1,9 @@
 function reverseString(str) {
-
-
-
-
-
-
-    return str;
-}
-
-reverseString("hello");
-function reverseString(str) {
-    let out = "";
-    let a = str.length - 1;
+    var out = "";
+    var a = str.length - 1;
+    var i = a;
     for(i = a; i >= 0; i -= 1) {
-        x = str.charAt(i);
+        var x = str.charAt(i);
         out += x
     }
     return(out);

@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="Deleted files">
+    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="Project 2 alive (not final ver)">
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp/Factorialize a Number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp/Find the Longest Word in a String.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/project3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/project3/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/project3/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project2/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeCodeCamp/Reverse a String.js" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp/Reverse a String.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +95,7 @@
       <workItem from="1607955761556" duration="5722000" />
       <workItem from="1608031848683" duration="710000" />
       <workItem from="1608033728943" duration="3262000" />
+      <workItem from="1608203833302" duration="6661000" />
     </task>
     <task id="LOCAL-00001" summary="new folder">
       <created>1607697600743</created>
@@ -146,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608031937118</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Project 2 alive (not final ver)">
+      <created>1608118004206</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608118004206</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +185,8 @@
     <MESSAGE value="FinalV2.0" />
     <MESSAGE value="new proj" />
     <MESSAGE value="Deleted files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted files" />
+    <MESSAGE value="Project 2 alive (not final ver)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 2 alive (not final ver)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="462" width="590" height="196" key="Github.CreateGistDialog" timestamp="1607697528412">
@@ -182,10 +197,10 @@
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
     <state x="741" y="225" width="484" height="669" key="RollbackChangesDialog/56.33.1864.1047@56.33.1864.1047" timestamp="1607957781416" />
-    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1608031945610">
+    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1608118008477">
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
-    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2/56.33.1864.1047@56.33.1864.1047" timestamp="1608031945610" />
+    <state x="506" y="232" width="1000" height="661" key="Vcs.Push.Dialog.v2/56.33.1864.1047@56.33.1864.1047" timestamp="1608118008477" />
     <state x="568" y="250" key="run.anything.popup" timestamp="1607698092583">
       <screen x="56" y="33" width="1864" height="1047" />
     </state>
