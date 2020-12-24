@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="New tasks">
+    <list default="true" id="429c2740-5bff-45a6-a1a2-0e3a5b570755" name="Default Changelist" comment="Proj3 progress started">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/project3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/project3/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project3/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/project3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/project3/style.css" afterDir="false" />
     </list>
@@ -95,7 +94,7 @@
       <workItem from="1608033728943" duration="3262000" />
       <workItem from="1608203833302" duration="6661000" />
       <workItem from="1608641056058" duration="13638000" />
-      <workItem from="1608824744548" duration="4007000" />
+      <workItem from="1608824744548" duration="5763000" />
     </task>
     <task id="LOCAL-00001" summary="new folder">
       <created>1607697600743</created>
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608654541296</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Proj3 progress started">
+      <created>1608830155550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608830155550</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +200,7 @@
     <MESSAGE value="Deleted files" />
     <MESSAGE value="Project 2 alive (not final ver)" />
     <MESSAGE value="New tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="New tasks" />
+    <MESSAGE value="Proj3 progress started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj3 progress started" />
   </component>
 </project>

@@ -10,19 +10,39 @@ var recognition = new SpeechRecognition();
 recognition.lang = 'en-US';
 recognition.interimResults = true;
 
-var words = document.querySelector('.words');
+//var words; //= document.querySelector('.words');
 var p = document.createElement('p');
 
 
 // работаем с этой функцией, сюда засунем распознавание речи
 function choiseCityOrLocation() {
-    var locationQuestion = prompt('Enter city name or click cancel button for use your location', '');
-    if (locationQuestion === null) {
-        alert('Weather will be show from your location');
-        getLocationCoords();
-    } else {
-        getWeatherDataCityName(locationQuestion);
-    }
+    alert('For choice your city use a voice after this message');
+    recognition.start();
+    recognition.addEventListener('result', function (event) {
+    p.innerText = Array
+        .from(event.results)
+        .map(function (result) {
+            return result[0];
+        })
+        .map(function (result) {
+            return result.transcript;
+        })
+
+
+
+    if(event.results[0].isFinal) {
+        p = document.createElement('p');
+
+    } console.log(p);
+})
+
+    // var locationQuestion = prompt('Enter city name', '');
+    // if (locationQuestion === null) {
+    //     alert('Weather will be show from your location');
+    //     getLocationCoords();
+    // } else {
+    //     getWeatherDataCityName(locationQuestion);
+    // }
 
 }
 
